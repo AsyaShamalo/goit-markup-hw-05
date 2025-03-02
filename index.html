@@ -492,15 +492,19 @@
         </div>
         <div class="footer-email">
           <p class="footer-sub">Subscribe</p>
-          <input
-            class="footer-input"
-            required
-            id="user-email"
-            name="user-email"
-            title="test@gmail.com"
-            placeholder="E-mail"
-            type="email"
-          />
+          <form class="footer-form" action="">
+            <label class="footer-form-label" for=""
+              ><input
+                class="footer-input"
+                required
+                id="user-email"
+                name="user-email"
+                title="test@gmail.com"
+                placeholder="E-mail"
+                type="email"
+            /></label>
+          </form>
+
           <button class="footer-label-btn" type="button">Subscribe</button>
           <span>
             <svg class="footer-btn-icon" width="24" height="20">
@@ -513,7 +517,7 @@
     <!-- #endregion Footer -->
 
     <!-- #region backdrop -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="close-btn-icon" width="8" height="8">
